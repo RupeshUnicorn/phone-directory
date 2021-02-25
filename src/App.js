@@ -1,9 +1,17 @@
+import { Fragment } from 'react';
 
 function App() {
   return (
-    <div>
-      Phone Directory
-	</div>
+    <Fragment>
+      <div>
+        Phone Directory
+	    </div>
+      <button>Add</button>
+      <div>
+        <span> Name </span>
+        <span> Phone </span>
+      </div>
+  </Fragment>
   );
 }
 
